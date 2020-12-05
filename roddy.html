@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Roddy Ricch </title>
+
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="gallery.js"></script>
+    </head>
+
+    <body onload="currentSlide(1)">
+
+        <a href="shirts.html">
+            <button id="exit">&times;</button>
+        </a>
+
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numberText">1/3</div>
+                <img src="./customs/shirts/rr-backdrop.jpg" style="width: 100%";>
+            </div>
+            <div class="mySlides fade">
+                <div class="numberText">2/3</div>
+                <img src="./customs/shirts/rr-upclose.jpg" style="width: 100%";>
+            </div>
+            <div class="mySlides fade">
+                <div class="numberText">3/3</div>
+                <img src="./customs/shirts/rr-model.jpg" style="width: 100%";>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <br>
+        <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </body>
+</html>

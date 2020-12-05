@@ -7,21 +7,57 @@
         
         <title> Sweaters </title>
         <link rel="stylesheet" href="stylesheet.css">
+
+        <script src="nav.js"></script>
+        <script src="gallery.js"></script>
+        <script src="button.js"></script>
+
+        <style>
+            img { position: relative;
+                  left: 43.5%; }
+
+            p { position: relative;
+                text-align: center;
+                text-decoration: underline;
+                font-size: 30px; }
+        </style>
     </head>
 
     <body>
-        <!-- Menu bar with all sub menus -->
-        <div class="navbar">
-            <a href="index.html">Home</a>
-            <a href="contacts.html">Contact</a>
-            <div class="dropdown">
-                <button class="dropbtn">Clothing <i class="fa fa-caret-down"></i></button>
-                <div class="dropdown-content">
-                    <a class="dropdown-shirt" href="shirts.html">Shirts</a>
-                    <a class="dropdown-sweaters" href="sweaters.html">Sweaters</a>
-                    <a class="dropdown-shoes" href="shoes.html">Shoes</a>
-                </div>
+        <!-- Curtain menu -->
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="shirts.html">Shirts</a>
+                <a href="sweaters.html">Sweaters</a>
+                <a href="shoes.html">Shoes</a>
+                <a href="contacts.html">Contact</a>
             </div>
         </div>
+        <span style="font-size: 30px; cursor: pointer;" onclick="openNav()">&#9776; Menu</span>
+
+        <h1> Sweaters </h1>
+
+        <br>
+        <br>
+
+        <a href="boomies.html">
+            <img src="./customs/sweaters/boomies-model.jpg" width="200px" height="250px">
+        </a>
+        <p> boomies </p>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <a href="hoodiekickz.html">
+            <img src="./customs/sweaters/hoodiekickz-upclose.jpg" width="200px" height="250px"> 
+        </a>
+        <p> hoodiekickz </p>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </body>
 </html>

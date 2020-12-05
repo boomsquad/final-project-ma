@@ -8,24 +8,25 @@
         <title> ArtToCloth </title>
         <link rel="stylesheet" href="stylesheet.css">
 
+        <script src="nav.js"></script>
         <script src="button.js"></script>
     </head>
 
     <body>
-        <!-- Menu bar with all sub menus -->
-        <div class="navbar">
-            <a href="index.html">Home</a>
-            <a href="contacts.html">Contact</a>
-            <div class="dropdown">
-                <button class="dropbtn">Clothing <i class="fa fa-caret-down"></i></button>
-                <div class="dropdown-content">
-                    <a class="dropdown-shirt" href="shirts.html">Shirts</a>
-                    <a class="dropdown-sweaters" href="sweaters.html">Sweaters</a>
-                    <a class="dropdown-shoes" href="shoes.html">Shoes</a>
-                </div>
+        <!-- Curtain menu -->
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="shirts.html">Shirts</a>
+                <a href="sweaters.html">Sweaters</a>
+                <a href="shoes.html">Shoes</a>
+                <a href="contacts.html">Contact</a>
             </div>
         </div>
+        <span style="font-size: 30px; cursor: pointer;" onclick="openNav()">&#9776; Menu</span>
 
+        <br></br>
         <h1>ArtToCloth</h1>
         <br></br>
 
