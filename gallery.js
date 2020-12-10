@@ -14,7 +14,7 @@ function currentSlide(n)
 function showSlides(n)
 {
     slides = document.getElementsByClassName("mySlides")
-    dots = document.getElementsByClassName("dots")
+    dots = document.getElementsByClassName("dot")
 
     if (n > slides.length)
     {
@@ -31,7 +31,7 @@ function showSlides(n)
     }
     for (i = 0; i < dots.length; i++)
     {
-        dots[i].className = dots[i].className.replace(" active","")
+        dots[i].className = dots[i].className.replace(" active", "")
     }
 
     slides[slideIndex-1].style.display = "block"
