@@ -56,3 +56,9 @@
 
 body { background: linear-gradient(to bottom, rgb(191, 248, 255) 0%, ivory 100%); }
 h1 { color: rgb(243, 71, 137); }
+
+
+        <img src="./images/Bella-Canvas-Logo.png" alt="bella+canvas logo" width="700" height="300" style="padding: 70px;">
+        <img src="./images/GILDAN_LOGO_blue.png" alt="gildan logo" width="750" height="300">
+        <img src="./images/delta-logo.png" alt="delta logo" width="450" height="300" style="padding-left: 190px; padding-top: 60px;">
+        <img src="./images/hanes-logo.png" alt="hanes logo" width="750" height="300" style="padding-left: 440px;">
